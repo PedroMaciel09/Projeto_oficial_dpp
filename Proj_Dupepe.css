@@ -113,12 +113,12 @@ header{
 #box3{
     
     right: 27%;
-    top: 640px;
+    top: 1000px;
 }
 
 #box4{
     left: 27%;
-    top: 640px;
+    top: 1000px;
 }
 
 .imagem_apresentaçao{
@@ -136,12 +136,11 @@ header{
 }
 
 #slide_int{
-    background-color: white;
-    text-align: center;
-    height:30px;
-    position: static;
-    width: auto;
-    padding: 15px;
+    top:0;
+    position:static;
+        
+    height: 400px;
+    background-image: url(photos/Du\ Pepê\ 27.jpg);     
 }
 
 #centro{
@@ -157,7 +156,13 @@ header{
     font-size: 1.6em;   
 }
 
-@media (max-width:1490px) and (min-width:1340px){
+@media (max-width:1490px) and (min-width:1300px){
+
+    #box,#box2,#box3,#box4{
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+
     #box{
         left:24%
     }
@@ -174,5 +179,29 @@ header{
         left:24%;
     }
 }
+
+@media (max-width:1299px) and (min-width:1100px){
+
+    #box,#box2,#box3,#box4{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    #box{
+        left:20%
+    }
+
+    #box2{
+        right: 20%;
+    }
+
+    #box3{
+        right:20%;
+    }
+
+    #box4{
+        left:20%;
+    }
+}   
 
 /*Veremos responsividade*/

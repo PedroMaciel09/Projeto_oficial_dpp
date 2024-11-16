@@ -78,11 +78,11 @@ header{
     font-family:'Times New Roman', Times, serif ;
     width: auto;
     margin-top: 0;
-    border-radius: 7px;
+    border-radius: 2px;
 }
 
 .articleprincipal{
-    height: 1000px;
+    height: 1100px;
     background-image: linear-gradient(to top,#6e5d44,#ebe5d8,#ffffff);
     background-size: 100%;
     padding: 50px 2%;
@@ -91,15 +91,16 @@ header{
 }
 
 #box,#box2,#box3,#box4{
-    border: solid #332107 3px;
-    position: absolute;
+    border: dashed #332107 3px;
+    position: relative;
     border-radius: 3vh;
     width: 210px;
     text-align: center;
     height: 310px;
     padding: 60px;
     padding-top: 70px;
-    margin:10px
+    margin:20px;
+    display: inline-block;
 }
 
 #box{
@@ -107,18 +108,17 @@ header{
 }
 
 #box2{
-    right: 27%;
+    left:27%;
 }
 
 #box3{
-    
-    right: 27%;
-    top: 640px;
+    right: 23%;
+    top:45%;
 }
 
 #box4{
-    left: 27%;
-    top: 640px;
+    right:23%;
+    top:45%;
 }
 
 .imagem_apresentaçao{
@@ -136,12 +136,11 @@ header{
 }
 
 #slide_int{
-    background-color: white;
-    text-align: center;
-    height:30px;
-    position: static;
-    width: auto;
-    padding: 15px;
+    top:0;
+    position:static;
+    max-width: 1600px;
+    height: 400px;
+    background-image: url(photos/Du\ Pepê\ 27.jpg);     
 }
 
 #centro{
@@ -167,11 +166,12 @@ header{
     }
 
     #box3{
-        right:23%;
+        right:2%;
     }
 
     #box4{
         left:24%;
+        top: 0.9%;
     }
 }
 

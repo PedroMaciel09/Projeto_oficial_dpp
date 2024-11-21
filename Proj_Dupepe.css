@@ -10,8 +10,8 @@ background -> #ebe5d8*/
 }
 
 header{
-    background-color: #3f7a38;
-    height: 62px;
+    background:linear-gradient(to right,#a2d950,#226b34,#084518);
+    height: 90px;
     width: auto;
     position:static;
     display:flexbox;
@@ -22,15 +22,16 @@ header{
 }
 
 .menu{
+    font-size: 3.5em;
     float: right;
-    padding: 15px;  
-    margin-top: 0px;
+    padding: 0px;  
+    margin-top: 5px;
     display: inline;
 }
 
 .menu a{
     text-decoration: none;
-    color:#332107;
+    color:#180f03;
     font-family:'Times New Roman', Times, serif;
     padding: 30px;
     font-size:x-large;
@@ -41,7 +42,7 @@ header{
     content:"";
     width:0%;
     height: 3px;
-    background-color: #332107;
+    background-color: #180f03;
     position: absolute;
     left: 0;
     bottom: 20px;
@@ -50,7 +51,6 @@ header{
 
 .menu a:hover::after{
     width: 100%;
-    
 }
 
 .imagemheader{
@@ -63,7 +63,6 @@ header{
     height: 85%;
     display: flex;
     margin-top:0;
-    
     }
 
 #rodapé{
@@ -78,11 +77,11 @@ header{
     font-family:'Times New Roman', Times, serif ;
     width: auto;
     margin-top: 0;
-    border-radius: 7px;
+    border-radius: 1px;
 }
 
 .articleprincipal{
-    height: 1000px;
+    height: 600px;
     background-image: linear-gradient(to top,#6e5d44,#ebe5d8,#ffffff);
     background-size: 100%;
     padding: 50px 2%;
@@ -91,7 +90,8 @@ header{
 }
 
 #box,#box2,#box3,#box4{
-    border: solid #332107 3px;
+    display: inline-block;
+    border: solid #388c4e 4px;
     position: absolute;
     border-radius: 3vh;
     width: 210px;
@@ -103,22 +103,20 @@ header{
 }
 
 #box{
-    left: 27%;
+    left: 6%;
 }
 
 #box2{
-    right: 27%;
+    left: 28.5%;
 }
 
 #box3{
     
-    right: 27%;
-    top: 1000px;
+    right: 28.5%;
 }
 
 #box4{
-    left: 27%;
-    top: 1000px;
+    right: 6%;
 }
 
 .imagem_apresentaçao{
@@ -136,11 +134,9 @@ header{
 }
 
 #slide_int{
-    top:0;
     position:static;
-        
-    height: 400px;
-    background-image: url(photos/Du\ Pepê\ 27.jpg);     
+    height:290px;
+    background-image: url(photos/imagem\ rede\ social.jpg);     
 }
 
 #centro{
@@ -156,51 +152,72 @@ header{
     font-size: 1.6em;   
 }
 
-@media (max-width:1490px) and (min-width:1300px){
-
-    #box,#box2,#box3,#box4{
-        margin-right: 15px;
-        margin-left: 5px;
-    }
-
-    #box{
-        left:24%
-    }
-
-    #box2{
-        right: 23%;
-    }
-
-    #box3{
-        right:23%;
-    }
-
-    #box4{
-        left:24%;
-    }
-}
-
-@media (max-width:1299px) and (min-width:1100px){
+@media (max-width:1490px) and (min-width:1286px){
 
     #box,#box2,#box3,#box4{
         margin-right: 5px;
-        margin-left: 10px;
+        margin-left: 5px;
+        width: 160px;
+    }
+
+    .imagem_apresentaçao{
+        width: 160px;
+        margin-left: 0%;
+        margin-right: 10%;
+        left:0%;
+        right: 2%;
+        transform: translate(4%,5%);
     }
 
     #box{
-        left:20%
+        left:4%;
     }
 
     #box2{
-        right: 20%;
+        left: 27%;
     }
 
     #box3{
-        right:20%;
+        right:27%;
     }
 
     #box4{
-        left:20%;
+        right:4%;
+    }
+}
+
+@media (max-width:1285px) and (min-width:1183px){
+
+    #box,#box2,#box3,#box4{
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 140px;
+    }
+
+    .imagem_apresentaçao{
+        width: 90px;
+        margin-left: 0%;
+        left:0%;
+        right: 2%;
+        padding: 5px;
+        transform: translate(1%,4%);
+        height: px;
+    }
+
+    #box{
+        left:4%;
+    }
+
+    #box2{
+        left: 27%;
+    }
+
+    #box3{
+        right:27%;
+    }
+
+    #box4{
+        right:4%;
     }
 }   
 

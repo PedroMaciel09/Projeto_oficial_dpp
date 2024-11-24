@@ -10,15 +10,21 @@ background -> #ebe5d8*/
 }
 
 header{
-    background:linear-gradient(to right,#a2d950,#226b34,#084518);
+    background:linear-gradient(to right,#084518,#226b34,#a2d950);
     height: 90px;
     width: auto;
     position:static;
     display:flexbox;
     border-radius: 1px;
-    box-shadow: gray;
     align-items: center;
-    justify-content: space-between;
+}
+
+.efect{
+    height: 5px;
+    width: auto;
+    display:flexbox;
+    background-color: #1c241e;
+    position: static;
 }
 
 .menu{
@@ -82,7 +88,7 @@ header{
 
 .articleprincipal{
     height: 600px;
-    background-image: linear-gradient(to top,#6e5d44,#ebe5d8,#ffffff);
+    background-image: linear-gradient(to right,#6e5d44,#ebe5d8,#d1af75,#ebe5d8,#6e5d44);
     background-size: 100%;
     padding: 50px 2%;
     width:auto;
@@ -134,9 +140,12 @@ header{
 }
 
 #slide_int{
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     position:static;
-    height:290px;
-    background-image: url(photos/imagem\ rede\ social.jpg);     
+    height:450px;
+    background-image: url(photos/Du\ Pepê\ 26.jpg);     
 }
 
 #centro{

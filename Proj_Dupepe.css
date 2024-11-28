@@ -73,8 +73,7 @@ header{
 
 #rodapé{
     clear: both;
-    background-color: #3f7a38;
-    margin-top: 50%;
+    background:linear-gradient(to right,#084518,#226b34,#a2d950);
     font-size: x-large;
     text-align:center;
     height:15px;
@@ -87,7 +86,8 @@ header{
 }
 
 .articleprincipal{
-    height: 600px;
+    height: 100%;
+    min-height: 700px;
     background-image: linear-gradient(to right,#6e5d44,#ebe5d8,#d1af75,#ebe5d8,#6e5d44);
     background-size: 100%;
     padding: 50px 2%;
@@ -142,8 +142,9 @@ header{
 #slide_int{
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: auto;
     position:static;
+    display: flexbox;
     height:450px;
     background-image: url(photos/Du\ Pepê\ 26.jpg);     
 }
@@ -159,6 +160,27 @@ header{
     top: 92%;
     color: #332107;
     font-size: 1.6em;   
+}
+
+
+@media (max-width:1900px) and (min-width:1600px){
+    
+    #box{
+        left:4%;
+    }
+
+    #box2{
+        left: 27%;
+    }
+
+    #box3{
+        right:27%;
+    }
+
+    #box4{
+        right:4%;
+    }
+    
 }
 
 @media (max-width:1490px) and (min-width:1286px){

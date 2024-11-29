@@ -1,7 +1,9 @@
 <h1>README PROJ DUPEPE!</h1>
 
-Este projeto é dedicado aos meus pais, que sempre me apoiaram. Agora quero retribuir minha gratidão com esse site voltado para a empresa em homenagem a mim.
+<h2><i>A página está disponível apenas para computadores com dimensão hd atualmente.</i></h2>
+
+Este projeto é dedicado aos meus pais, que sempre me apoiaram. Agora quero retribuir minha gratidão com esse site.
 
 Abraços e boa codada!
 
-<https://github.com/Uhiolo/Projeto_ofc_DPP>
+<https://github.com/PedroMaciel09/Projeto_oficial_dpp>

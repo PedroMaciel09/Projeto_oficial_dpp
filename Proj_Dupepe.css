@@ -209,10 +209,7 @@ header{
 }
 
 
-
-
-
-@media (max-width:1600px) and (min-width:1286px){
+@media (max-width:1599px) and (min-width:1286px){
 
     #box,#box2,#box3,#box4{
         margin-right: 5px;
@@ -261,7 +258,6 @@ header{
         right: 2%;
         padding: 5px;
         transform: translate(1%,4%);
-        height: px;
     }
 
     #box{
@@ -279,6 +275,82 @@ header{
     #box4{
         right:4%;
     }
+}
+
+@media (max-width:1182px) and (min-width:1142px){
+
+    #box,#box2,#box3,#box4{
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 140px;
+    }
+
+    .imagem_apresentaçao{
+        width: 90px;
+        margin-left: 0%;
+        left:0%;
+        right: 2%;
+        padding: 5px;
+        transform: translate(1%,4%);
+    }
+
+    #box{
+        left:2%;
+    }
+
+    #box2{
+        left: 26%;
+    }
+
+    #box3{
+        right:26%;
+    }
+
+    #box4{
+        right:2%;
+    }
 }   
 
-/*Veremos responsividade*/
+/*Resp em altura*/
+
+@media (max-height:751px) and (min-height:648px){
+    #box,#box2,#box3,#box4{
+        margin-top:110px;
+    }
+}
+
+@media (max-height:647px) and (min-height:530px){
+    #box,#box2,#box3,#box4{
+        margin-top:210px;
+    }
+}
+
+@media (max-height:529px) and (min-height:420px){
+    #box,#box2,#box3,#box4{
+        margin-top:310px;
+    }
+}
+
+@media (max-height:529px) and (min-height:420px){
+    #box,#box2,#box3,#box4{
+        margin-top:310px;
+    }
+}
+
+@media (max-height:419px) and (min-height:297px){
+    #box,#box2,#box3,#box4{
+        margin-top: 410px;
+    }
+}
+
+@media (max-height:296px) and (min-height:167px){
+    #box,#box2,#box3,#box4{
+        margin-top: 510px;
+    }
+}
+
+@media (max-height:166px) and (min-height:54px){
+    #box,#box2,#box3,#box4{
+        margin-top: 610px;
+    }
+}

@@ -2,7 +2,7 @@
 
 /* verde dupepe -> #3f7a38
 papel de parede -> #a2d950
-background -> #ebe5d8*/
+background -> #f7e9cd   */
 
 *{
     padding:0;
@@ -10,14 +10,14 @@ background -> #ebe5d8*/
 }
 
 body{
-    background-color: #ebe5d8;
+    background-color: #f7e9cd;
 }
 
 header{
     background:linear-gradient(to right,#084518,#226b34,#a2d950);
     height: 90px;
     width: 100%;
-    position:fixed;
+    position:absolute;
     display:flexbox;
     border-radius: 1px;
     align-items: center;
@@ -99,7 +99,8 @@ header{
 }
 
 .titulo_article{
-    margin-top: 10px;
+    background-image: linear-gradient(to right,#6e5d44,#ebe5d8,#d1af75,#ebe5d8,#6e5d44);
+    margin-top: 0px;
     text-align: center; 
     margin-left: auto;
     margin-right: auto;
@@ -111,17 +112,16 @@ header{
 }
 
 #box,#box2,#box3,#box4{
-    display: inline-block;
+    display:inline-block;
     border: solid #388c4e 4px;
-    position: absolute;
+    position: static;
     border-radius: 3vh;
     width: 210px;
     text-align: center;
     height: 310px;
-    padding: 60px;
+    padding: 80px;
     padding-top: 70px;
-    top: 85%;
-    margin:10px
+    margin:90px
 }
 
 #box{
@@ -145,14 +145,11 @@ header{
     top: 0%;
     left:2%;
     right: 2%;
-    position:absolute;
+    position:relative;
     width: 250px;
     padding: 10px;
     height: 310px;
-    display:flex;   
-    margin-left: 4%;
-    margin-right: 3%;
-    transform: translate(5%,5%);    
+    display:inline-flex; 
 }
 
 #slide_int{
@@ -173,12 +170,13 @@ header{
 .sub_apresentaçao{
     text-align: center;
     position: relative;
-    top: 92%;
+    top: 2%;
     color: #180f03;
     font-size: 1.6em;   
 }
 
 /*--------------------------Resp em largura--------------------------*/
+
 
 @media (max-width:1755px) and (min-width:1600px){
 

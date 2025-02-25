@@ -10,14 +10,14 @@ background -> #ebe5d8*/
 }
 
 body{
-    background-color: #ebe5d8;
+    background-image: linear-gradient(to right,#6e5d44,#ebe5d8,#d1af75,#ebe5d8,#6e5d44);
 }
 
 header{
     background:linear-gradient(to right,#084518,#226b34,#a2d950);
     height: 90px;
     width: 100%;
-    position:fixed;
+    position:absolute;
     display:flexbox;
     border-radius: 1px;
     align-items: center;
@@ -74,7 +74,7 @@ header{
     display:flex;
     }
 
-#rodapé{
+.rodapé{
     clear: both;
     background:linear-gradient(to right,#084518,#226b34,#a2d950);
     font-size: x-large;
@@ -84,13 +84,13 @@ header{
     color:#180f03;
     font-family:'Times New Roman', Times, serif ;
     width: auto;
-    margin-top: 0;
+    margin-top: 100px;
     border-radius: 1px;
 }
 
 .articleprincipal{
     height: 100%;
-    min-height: 700px;
+    min-height: 1000px;
     background-image: linear-gradient(to right,#6e5d44,#ebe5d8,#d1af75,#ebe5d8,#6e5d44);
     background-size: 100%;
     padding: 50px 5%;

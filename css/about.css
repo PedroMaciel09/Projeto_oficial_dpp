@@ -5,6 +5,8 @@
 
 body{
     background-image: linear-gradient(to right,#b6975e,#948553,#c9af86);
+    max-height: 800px;
+    font-family: Acme ;
 }
 
 header{
@@ -16,6 +18,12 @@ header{
     border-radius: 1px;
     align-items: center;
     margin-top:0;
+}
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .efect{
@@ -37,7 +45,6 @@ header{
 .menu a{
     text-decoration: none;
     color:#180f03;
-    font-family:'Times New Roman', Times, serif;
     padding: 30px;
     font-size:x-large;
     position:relative; 
@@ -66,49 +73,4 @@ header{
     height: 160%;
     top: -28px;
     display:flex;
-}
-
-.carroussel{
-    left:50px;
-    top: -500px;
-    display: flex;
-    width: 40%;
-    position: relative;
-}
-
-.text_area1{
-    margin-top:50px;
-    text-align: center;
-    width: 400px;
-    margin-left: 900px ;
-    position: relative;
-}
-
-.text_area2{
-    margin-top: -400px;
-    text-align: center;
-    width: 400px;
-    margin-left: 150px ;
-    position: relative;
-}
-
-.foto1 {
-    float: right;
-    position: relative;
-    width: 40%;
-    max-width: 500px;
-    right: 250px;
-    display: flex;
-    margin-bottom: 100px;
-}
-
-.foto1 > img {
-    width: 100%; 
-    height: auto;
-    margin-top:-450px;
-    max-width: 100%;
-}
-
-#text{
-    font-size: 1.4em;
 }

@@ -20,7 +20,7 @@
 @media (max-width:1310px) {
     
     #a-infos{
-        height: 500px;
+        height: 510px;
         width: 350px;
         justify-content: center;
     }
@@ -87,9 +87,8 @@
 
 @media (max-width:632px){
     #news{
-        width:375px;
-        right: 20%;
-        font-size: 0.5em;
+        width:400px;
+        font-size: 0.8em;
     }
 
     #imagemheader{
@@ -103,15 +102,15 @@
     }
 
     #img-article{
-        width: 220px;
+        width: 140px;
     }
 
     .box{
-        height: 220px;
+        height: 250px;
     }
 
     #a-infos{
-        margin-top: 0px;
+        margin-top: 40px;
         width: 300px;
         height: 400px;
         font-size: 0.7em;
@@ -120,15 +119,30 @@
 
 @media (max-width:429px){
     #menu a{
-        padding: 0px;
-        font-size: 0.21em;
+        padding: 1px;
+        font-size: 0.3em;
     }
 
-    #imagem-header{
-        height: 15%;
+    #news{
+        width:300px;
+        font-size: 0.9em;
+    }
+
+    .box{
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .p-geral{
+        float: inline-end;
+    }
+
+    #img-article{
+        width: 190px;
     }
 
     #a-infos{
-        margin-right: 10%;
+        margin-right: 14%;
+        margin-top: 200px;
     }
 }

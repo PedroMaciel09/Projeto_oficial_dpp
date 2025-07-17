@@ -4,6 +4,6 @@
 
 Este projeto é dedicado aos meus pais, que sempre me apoiaram. Agora quero retribuir minha gratidão com esse site.
 
-Abraços e boa codada!
+PATCH 1.2: Aba "Sobre nós" foi finalizada.
 
 <https://github.com/PedroMaciel09/Projeto_oficial_dpp>

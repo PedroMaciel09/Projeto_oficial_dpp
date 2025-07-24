@@ -171,12 +171,29 @@ header{
     .menu a{
         font-size:0.23em;
         margin: 1px;
-        padding:5px;
+        padding:1px;
     }
 }
 
 @media (max-width:380px) {
     #img-right{
-        height: 30vh;
+        height: 25vh;
+    }
+}
+
+@media (max-width: 369px){
+     .imagemheader{
+        height: 70%;
+        top: 18px;
+    }
+
+    .menu a{
+        font-size:0.23em;
+        margin: 1px;
+        padding:5px;
+    }
+
+    .container{
+        font-size: 0.5em;
     }
 }

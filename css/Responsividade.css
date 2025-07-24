@@ -92,7 +92,7 @@
     }
 
     #imagemheader{
-        height: 80%;
+        height: 75%;
         top: 7px;
     }
 
@@ -117,14 +117,20 @@
     }
 }
 
-@media (max-width:429px){
+@media (max-width:469px){
     #menu a{
         padding: 1px;
-        font-size: 0.2em;
+        top: 0px;
+        font-size: 0.3em;
+    }
+
+    #imagemheader{
+        height: 80%;
+        top: 10px;
     }
 
     #news{
-        width:300px;
+        width:340px;
         font-size: 0.9em;
     }
 
@@ -144,5 +150,17 @@
     #a-infos{
         margin-right: 14%;
         margin-top: 200px;
+    }
+}
+
+@media (max-width:378px){
+    #menu a{
+        padding: 1px;
+        top: -8px;
+        font-size: 0.23em;
+    }
+
+    #imagemheader{
+        height: 75%;
     }
 }

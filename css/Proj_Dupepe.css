@@ -97,7 +97,7 @@ header{
     border: solid #180f03 3px;
     border-radius: 10px;
     float: left;
-    height: 860px;
+    height: auto;
     display: flexbox;
     width: 400px;
     margin: 25px;

@@ -1,7 +1,7 @@
 @media (max-width:1510px) {
     #news{
         width:800px;
-        height: 700px;
+        height: auto;
     }
     
     .p-geral{
@@ -112,7 +112,7 @@
     #a-infos{
         margin-top: 40px;
         width: 300px;
-        height: 400px;
+        height: 500px;
         font-size: 0.7em;
     }
 }
@@ -120,7 +120,7 @@
 @media (max-width:469px){
     #menu a{
         padding: 1px;
-        top: 0px;
+        top: -14px;
         font-size: 0.3em;
     }
 
@@ -130,7 +130,7 @@
     }
 
     #news{
-        width:340px;
+        width:360px;
         font-size: 0.9em;
     }
 
@@ -148,15 +148,16 @@
     }
 
     #a-infos{
-        margin-right: 14%;
+        margin-right: 12%;
         margin-top: 200px;
+        width: 300px;
     }
 }
 
 @media (max-width:378px){
+
     #menu a{
         padding: 1px;
-        top: -8px;
         font-size: 0.23em;
     }
 

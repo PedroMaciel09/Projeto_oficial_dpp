@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: linear-gradient(to right,#b6975e,#948553,#c9af86);
+    max-height: 800px;
+    font-family: Acme ;
+}
+
+header{
+    background:linear-gradient(to right,#084518,#226b34,#a2d950);
+    height: 90px;
+    width: 100%;
+    position:relative;
+    display:flexbox;
+    border-radius: 1px;
+    align-items: center;
+    margin-top:0;
+}
+
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu{
+    font-size: 3.5em;
+    float: right;
+    margin-top:-10px;
+    padding: 0px;  
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#180f03;
+    padding: 30px;
+    font-size:x-large;
+    position:relative; 
+}
+
+.menu a::after{
+    content:"";
+    width:0%;
+    height: 3px;
+    background-color: #180f03;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    transition:0.2s
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
+
+.imagemheader{
+    margin-left:2%;
+    padding:5px;
+    float:left;
+    position:relative;
+    height: 160%;
+    top: -28px;
+    display:flex;
+}
+
+.container{
+    margin-top: 50px;
+    display: inline-flex;
+    border: solid 1px black;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    margin: 10px;
+}

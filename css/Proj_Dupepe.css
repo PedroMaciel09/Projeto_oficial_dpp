@@ -44,7 +44,6 @@ header{
 #menu{
     font-size: 3.5em;
     float: right;
-    padding: 0px;  
     margin-top: 0px;
     display: inline;
 }
@@ -90,11 +89,11 @@ header{
     position:static;
     display: flexbox;
     height:400px;
-    background-image: url(/photos/Du\ Pepê\ 26.jpg);     
+    background-image: url(/photos/Du\ Pepê\ 26.jpg);   
 }
 
 #a-infos{
-    border: solid #180f03 3px;
+    background:linear-gradient(to right,#a58955,#70643d);
     border-radius: 10px;
     float: left;
     height: auto;
@@ -117,12 +116,14 @@ header{
 
 #news{
     float: right;
-    height: 800px;
+    height: auto;
     display: flexbox;
     position: sticky;
     width: 1000px;
     margin: 25px;
     color: #221c0e;
+    background:linear-gradient(to right,#a58955,#70643d);
+    border-radius: 10px;
 }
 
 .box{
@@ -135,7 +136,7 @@ header{
 }
 
 #img-article{
-    width: 400px;
+    width: 390px;
     display:flex;
     margin: 5px;
     float: left;

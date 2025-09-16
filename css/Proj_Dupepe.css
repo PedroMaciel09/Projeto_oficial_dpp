@@ -32,7 +32,6 @@ header{
   font-style: normal;
 }
 
-
 #efect{
     height: 5px;
     width: auto;
@@ -81,7 +80,6 @@ header{
     display:flex;
     }
 
-
 #slide_int{
     background-position: center;
     background-repeat: no-repeat;
@@ -89,18 +87,16 @@ header{
     position:static;
     display: flexbox;
     height:400px;
-    background-image: url(/photos/Du\ Pepê\ 26.jpg);   
+    background-image: url(/photos/Du\ Pepê\ 26.jpg);     
 }
 
 #a-infos{
-    background:linear-gradient(to right,#a58955,#70643d);
-    border-radius: 10px;
+    border: 3px;
+    border-radius: 15px;
+    background:linear-gradient(to right,#7e673d,#70643b);
     float: left;
-    height: auto;
-    display: flexbox;
-    width: 400px;
-    margin: 25px;
-    color: #221c0e;
+    width: 25vw;
+    margin-left: 10px;
     text-align: center;
 }
 
@@ -109,35 +105,110 @@ header{
 }
 
 #logo-aside{
-    width: 400px;
-    height: 410px;
+    width: 20vw;
     display:flexbox;   
 }
 
-#news{
+#news-right{
+    border: 3px;
+    border-radius: 15px;
+    background:linear-gradient(to right,#7e673d,#70643b);
     float: right;
+    margin-right: 10px;
+    width: 60vw;
+}
+
+.container{   
     height: auto;
+    margin-top: 50px;
     display: flexbox;
-    position: sticky;
-    width: 1000px;
-    margin: 25px;
-    color: #221c0e;
-    background:linear-gradient(to right,#a58955,#70643d);
-    border-radius: 10px;
+}
+
+.img-article{
+    width: 20vw;
+    margin: 10px;
+    margin-top: 15px;
+    float: left;
 }
 
 .box{
-    height: 300px;
-    display: flexbox;
-    position: sticky;
-    width:auto;
-    margin: 30px;
-    color: #221c0e;
+    margin-top: 80px;
 }
 
-#img-article{
-    width: 390px;
-    display:flex;
-    margin: 5px;
-    float: left;
+@media (max-width:868px) {
+    #imagemheader{
+        height: 100%;
+        top: 2px;
+    }
+
+    #menu a{
+        font-size: 0.3em;
+        top: -10px;
+        padding: 15px;
+        margin: 1px;
+    }
+    
+    header{
+        height: 10vh;
+    }
+}
+
+@media (max-width: 1286px) {
+  #a-infos{
+    float: none;
+    width: 95vw;
+  }
+
+  #news-right{
+    float: none;
+    width: 95vw;
+  }
+
+  #logo-aside{
+    width: 60vw;
+    display:flexbox;
+    }
+
+.img-article{
+    width: 50vw;
+    margin-top: 40px;
+    float: none;
+    }
+}
+
+@media (max-width:632px){
+    #imagemheader{
+        height: 75%;
+        top: 7px;
+    }
+
+    #menu a{
+        padding: 5px;
+        margin: 1px;
+    }
+}
+
+@media (max-width:469px){
+    #menu a{
+        padding: 1px;
+        top: -14px;
+        font-size: 0.3em;
+    }
+
+    #imagemheader{
+        height: 80%;
+        top: 10px;
+    }
+}
+
+@media (max-width:378px){
+
+    #menu a{
+        padding: 1px;
+        font-size: 0.23em;
+    }
+
+    #imagemheader{
+        height: 75%;
+    }
 }

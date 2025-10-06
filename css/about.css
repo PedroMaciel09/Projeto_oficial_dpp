@@ -5,7 +5,6 @@
 
 body{
     background-image: linear-gradient(to right,#b6975e,#948553,#c9af86);
-    max-height: 800px;
     font-family: Acme ;
 }
 
@@ -18,6 +17,7 @@ header{
     border-radius: 1px;
     align-items: center;
     margin-top:0;
+    justify-content: space-between;
 }
 
 .acme-regular {
@@ -67,9 +67,17 @@ header{
     display:flex;
 }
 
+.text{
+    font-size: 1.3em;
+}
+
+.title{
+    color:#084518;
+}
+
 .container{
     width: 155vw;
-    height: 45vh;
+    height: auto;
     margin-top: 100px;
     font-size: 1.3em;
     color: #221c0e;
@@ -92,19 +100,14 @@ header{
 
 @media (max-width:848px){
     .imagemheader{
-        height: 90%;
-        top: 5px;
+        height: 70%;
+        top: 10px;
     }
 
     .menu a{
         font-size:0.25em;
         padding: 10px;
-    }
-}
-
-@media (max-width:978px){
-    #last-container{
-        margin-top: 100px;
+        display: inline-flex;
     }
 }
 
@@ -116,64 +119,16 @@ header{
 
     #img-right{
         float:none;
-        height: 35vh;
+        height: 40vh;
     }
-
     .container{
-        width: 100vw;
-    }
-}
-
-
-@media (max-width:868px) {
-    #imagemheader{
-        height: 100%;
-        top: 2px;
+        max-width: 95vw;
+        border-radius: 15px;
+        background:linear-gradient(to right,#7e673d,#70643b);
     }
 
-    #menu a{
-        font-size: 0.3em;
-        top: -10px;
-        padding: 15px;
-        margin: 1px;
-    }
-    
-    header{
-        height: 10vh;
-    }
-}
-
-@media (max-width:632px){
-    #imagemheader{
-        top: 7px;
-    }
-
-    #menu a{
-        padding: 5px;
-        margin: 1px;
-    }
-}
-
-@media (max-width:469px){
-    #menu a{
-        padding: 1px;
-        top: -14px;
-        font-size: 0.3em;
-    }
-
-    #imagemheader{
-        top: 10px;
-    }
-}
-
-@media (max-width:378px){
-
-    #menu a{
-        padding: 1px;
-        font-size: 0.23em;
-    }
-
-    #imagemheader{
-        height: 70%;
-    }
+    .menu {
+    flex-direction: column;
+    align-items: center;
+  }
 }

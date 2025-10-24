@@ -134,8 +134,7 @@ header{
 }
 
 .box{
-    margin-top: 20px;
-    height: 225px;
+    height: auto;
     font-size: 1.4em;
 }
 
@@ -157,7 +156,7 @@ header{
     }
 }
 
-@media (max-width: 1286px) {
+@media (max-width: 1400px) {
     #a-infos {
     float: none;
     width: 90%;
